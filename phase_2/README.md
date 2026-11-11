@@ -61,19 +61,17 @@ Scores are official primary-metric values. The ZIPs contain predictions in the s
 | [`gated_pre_post_lorma_dora.zip`](gated_pre_post_lorma_dora.zip) | Gated pre/post LoRMA–DoRA variant | 0.2267 |
 | [`lorma_dora.zip`](lorma_dora.zip) | A decoder LoRMA–DoRA run | 0.2338 |
 | [`lorma_dora_1.zip`](lorma_dora_1.zip) | Alternate legal NER predictions from a decoder LoRMA–DoRA run | 0.2191 |
-| [`lorma_dora_bilstm_crf.zip`](lorma_dora_bilstm_crf.zip) | LoRMA–DoRA BiLSTM–CRF variant | - |
 | [`lorma_dora_partial_FFT.zip`](lorma_dora_partial_FFT.zip) | LoRMA + DoRA with additional partial fine-tuning | 0.2368 |
-| [`lorma_dora_word_transformer_1.zip`](lorma_dora_word_transformer_1.zip) | LoRMA–DoRA model with one word-Transformer setting | - |
-| [`lorma_dora_word_transformer_1_1.zip`](lorma_dora_word_transformer_1_1.zip) | Alternate legal NER predictions from the LoRMA–DoRA word-Transformer run | - |
+| [`lorma_dora_word_transformer_1.zip`](lorma_dora_word_transformer_1.zip) | LoRMA–DoRA model with one word-Transformer setting | 0.2258 |
 | [`lorma_dora_word_transformer_2.zip`](lorma_dora_word_transformer_2.zip) | LoRMA–DoRA model with the deeper word-Transformer setting | 0.2358 |
 | [`partial_FFT.zip`](partial_FFT.zip) | Random-element partial backbone updates and BIO head | 0.2271 |
 | [`student_lorma_unweighted.zip`](student_lorma_unweighted.zip) | Unweighted LoRMA distillation student | 0.1675 |
 | [`teacher_dora_unweighted.zip`](teacher_dora_unweighted.zip) | Unweighted DoRA teacher | 0.2285 |
-| [`teacher_lora_1.zip`](teacher_lora_1.zip) | LoRA teacher with the smaller rank setting | - |
-| [`teacher_lora_64.zip`](teacher_lora_64.zip) | LoRA teacher with rank 64 | - |
-| [`teacher_lora_seq_512.zip`](teacher_lora_seq_512.zip) | Sequential LoRA teacher using 512-token chunks | - |
-| [`teacher_lora_weighted.zip`](teacher_lora_weighted.zip) | Weighted-loss LoRA teacher | - |
-| [`teacher_lorma.zip`](teacher_lorma.zip) | LoRMA teacher | - |
+| [`teacher_lora_1.zip`](teacher_lora_1.zip) | LoRA teacher with the smaller rank setting | 0.1780 |
+| [`teacher_lora_64.zip`](teacher_lora_64.zip) | LoRA teacher with rank 64 | 0.2075 |
+| [`teacher_lora_seq_512.zip`](teacher_lora_seq_512.zip) | Sequential LoRA teacher using 512-token chunks | 0.2142 |
+| [`teacher_lora_weighted.zip`](teacher_lora_weighted.zip) | Weighted-loss LoRA teacher | 0.1889 |
+| [`teacher_lorma.zip`](teacher_lorma.zip) | LoRMA teacher | 0.2264 |
 | [`teacher_lorma_unweighted.zip`](teacher_lorma_unweighted.zip) | Unweighted LoRMA teacher | 0.2290 |
 | [`teacher_lorma_unweighted_partial_FF.zip`](teacher_lorma_unweighted_partial_FF.zip) | Unweighted LoRMA teacher with partial fine-tuning | 0.2235 |
 
