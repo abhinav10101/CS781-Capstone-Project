@@ -65,7 +65,8 @@ Scores are official primary-metric values. The ZIPs contain predictions in the s
 | [`pcr_rebuilt_decoder_MOE_lorma_len20.zip`](pcr_rebuilt_decoder_MOE_lorma_len20.zip) | Rebuilt decoder MoE with LoRMA | 0.2392 |
 | [`pcr_rebuilt_dual_attention_lorma_le.zip`](pcr_rebuilt_dual_attention_lorma_le.zip) | Rebuilt dual-attention model with LoRMA | 0.0130 |
 | [`pcr_rebuilt_encoder_decoder_mixed_l.zip`](pcr_rebuilt_encoder_decoder_mixed_l.zip) | Rebuilt encoder–decoder LoRMA model | 0.0148 |
-
+| [`pcr_rebuilt_decoder_126M_lorma_all_gradcache_v1_len512.zip`](pcr_rebuilt_decoder_126M_lorma_all_gradcache_v1_len512.zip) | Partial fine-tuning + top-7 boundary loss + GradCache | 0.2191 |
+| [`pcr_rebuilt_decoder_lorma_adapters_pair_mlp_v1_len512.zip`](pcr_rebuilt_decoder_lorma_adapters_pair_mlp_v1_len512.zip) | Decoder LoRMA with adaptors | 0.2215 |
 ## Longer-context dense runs
 
 | Submission | Base notebook | Changed settings |
