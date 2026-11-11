@@ -44,13 +44,9 @@ Run settings below show the requested epoch/token limit. Checkpoints can be sele
 | Notebook | What changes | Run settings |
 | :-- | :-- | :-- |
 | [`phase-4-adaptors.ipynb`](phase-4-adaptors.ipynb) | Bottleneck-64 adapters with 512-token sentence context; select eight training/sixteen evaluation views. | 512 tokens; 80% data; LR 0.0002; up to 20 epochs |
-| [`phase-4-ce-control.ipynb`](phase-4-ce-control.ipynb) | Four-layer copied student trained with gold CE only (KD alpha zero); keep teacher-head initialization. | 2048 tokens; 60% data; LR 0.0001; up to 5 epochs |
 | [`phase-4-chunk-attn.ipynb`](phase-4-chunk-attn.ipynb) | Bottleneck adapters with learned weights over 768-token chunks; select two training/four evaluation views. | 768 tokens; 20% data; LR 0.0002; up to 5 epochs |
 | [`phase-4-confidence (1).ipynb`](phase-4-confidence%20%281%29.ipynb) | Four-layer confidence/correctness-gated KD; train the final two student blocks, with an eleven-hour session budget. | 2048 tokens; 60% data; LR 0.0001; up to 7 epochs |
-| [`phase-4-final.ipynb`](phase-4-final.ipynb) | Four-layer student with fixed KD and the final three student blocks trainable. | 2048 tokens; 60% data; LR 0.0001; up to 5 epochs |
-| [`phase-4-kd-5.ipynb`](phase-4-kd-5.ipynb) | Five-layer student with two trainable final blocks and a 20-epoch budget. | 2048 tokens; 20% data; LR 0.0001; up to 20 epochs |
 | [`phase-4-kd-student.ipynb`](phase-4-kd-student.ipynb) | Three-layer copied student with two trainable final blocks. | 2048 tokens; 20% data; LR 0.0001; up to 20 epochs |
-| [`phase-4-kd.ipynb`](phase-4-kd.ipynb) | Four-layer student with annealed teacher supervision followed by label-focused training. | 2048 tokens; 20% data; LR 0.0001; up to 20 epochs |
 | [`phase4_decoder_126M_adalora_len2048.ipynb`](phase4_decoder_126M_adalora_len2048.ipynb) | Dense AdaLoRA: initial rank 16, target eight, orthogonality weight 0.1, with rank warmup/final fractions 0.10/0.20. | 2048 tokens; 20% data; LR 0.0002; up to 7 epochs |
 | [`phase4_decoder_126M_confidence_kd_student4_len2048_data60pct.ipynb`](phase4_decoder_126M_confidence_kd_student4_len2048_data60pct.ipynb) | Four-layer student with confidence/correctness-gated KD and two trainable final blocks. | 2048 tokens; 60% data; LR 0.0001; up to 7 epochs |
 | [`phase4_decoder_126M_kd_student4_len2048_data20pct.ipynb`](phase4_decoder_126M_kd_student4_len2048_data20pct.ipynb) | Four-layer student with fixed teacher weight, serving as the standard KD comparison. | 2048 tokens; 20% data; LR 0.0001; up to 8 epochs |
@@ -83,5 +79,7 @@ Scores are official primary-metric values. The ZIPs contain predictions in the s
 | [`cjpe_decoder_MOE_lorma.zip`](cjpe_decoder_MOE_lorma.zip) | Decoder MoE with LoRMA | 0.5619 |
 | [`cjpe_dual_attention_200M_lorma.zip`](cjpe_dual_attention_200M_lorma.zip) | Dual-attention model with LoRMA | 0.3323 |
 | [`cjpe_encoder_decoder_mixed_lorma.zip`](cjpe_encoder_decoder_mixed_lorma.zip) | Encoder–decoder model with LoRMA | 0.3323 |
+| [`cjpe_decoder_126M_lorma.zip`](cjpe_decoder_126M_lorma.zip) | Decoder model with LoRMA | 0.5958 |
+
 
 [Setup and checkpoint instructions](../README.md#data-and-setup) | [Project overview](../README.md)
