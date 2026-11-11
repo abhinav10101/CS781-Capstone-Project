@@ -64,7 +64,7 @@ Scores are official primary-metric values. The ZIPs contain predictions in the s
 | [`rr_decoder_126M_joint_distillation_.zip`](rr_decoder_126M_joint_distillation_.zip) | Decoder distillation run | 0.3429 |
 | [`rr_decoder_126M_joint_lorma_ctx0.zip`](rr_decoder_126M_joint_lorma_ctx0.zip) | Context-free decoder LoRMA run | 0.3735 |
 | [`rr_decoder_126M_joint_lorma_ctx0_ML.zip`](rr_decoder_126M_joint_lorma_ctx0_ML.zip) | Context-free LoRMA model with label-specific pooling | 0.3493 |
-| [`rr_decoder_126M_joint_lorma_ctx1.zip`](rr_decoder_126M_joint_lorma_ctx1.zip) | Decoder LoRMA model with one-sentence context | - |
+| [`rr_decoder_126M_joint_lorma_ctx1.zip`](rr_decoder_126M_joint_lorma_ctx1.zip) | Decoder LoRMA model with one-sentence context | 0.3948 |
 | [`rr_decoder_126M_joint_lorma_ctx2_at.zip`](rr_decoder_126M_joint_lorma_ctx2_at.zip) | Decoder LoRMA model with two-sentence attention context | 0.4059 / 0.4065 |
 | [`rr_decoder_126M_joint_lorma_ctx2_bi.zip`](rr_decoder_126M_joint_lorma_ctx2_bi.zip) | Decoder LoRMA model with two-sentence BiLSTM context | 0.4017 |
 | [`rr_decoder_126M_joint_lorma_ctx2_pa.zip`](rr_decoder_126M_joint_lorma_ctx2_pa.zip) | Decoder LoRMA model with two-sentence context and partial fine-tuning | 0.3870 |
@@ -74,7 +74,7 @@ Scores are official primary-metric values. The ZIPs contain predictions in the s
 | [`rr_decoder_moe.zip`](rr_decoder_moe.zip) | Decoder + MoE rhetorical-role model | 0.3382 |
 | [`rr_decoder_moe_125M_joint_dora_94f7.zip`](rr_decoder_moe_125M_joint_dora_94f7.zip) | Decoder MoE with DoRA | 0.3410 |
 | [`rr_decoder_rectified.zip`](rr_decoder_rectified.zip) | Dense decoder rhetorical-role submission | 0.3537 |
-| [`rr_dual_attention_200M_joint_distil.zip`](rr_dual_attention_200M_joint_distil.zip) | Dual-attention distillation run | - |
+| [`rr_dual_attention_200M_joint_distil.zip`](rr_dual_attention_200M_joint_distil.zip) | Dual-attention distillation run | 0.2756|
 | [`rr_dual_attention_200M_joint_dora_9.zip`](rr_dual_attention_200M_joint_dora_9.zip) | Dual-attention model with DoRA | 0.2565 |
 | [`rr_dual_attention_200M_joint_lora_9.zip`](rr_dual_attention_200M_joint_lora_9.zip) | Dual-attention model with LoRA | 0.2760 |
 | [`rr_dual_attention_200M_joint_lorma_.zip`](rr_dual_attention_200M_joint_lorma_.zip) | Dual-attention model with LoRMA | 0.2269 |
